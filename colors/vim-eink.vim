@@ -8,8 +8,8 @@ hi Conceal gui=NONE guifg=#707070 guibg=NONE
 hi Conditional gui=bold guifg=#4a4a4a guibg=NONE
 hi Constant gui=NONE guifg=#707070 guibg=NONE
 hi Cursor gui=reverse guifg=NONE guibg=NONE
-hi CursorColumn gui=NONE guifg=NONE guibg=#f5f5f5
-hi CursorLine gui=NONE guifg=NONE guibg=#f5f5f5
+hi CursorColumn gui=NONE guifg=NONE guibg=#bfbfbf
+hi CursorLine gui=NONE guifg=NONE guibg=#bfbfbf
 hi CursorLineNr gui=NONE guifg=#969696 guibg=NONE
 hi DiffAdd gui=NONE guifg=NONE guibg=#f0fff0
 hi DiffChange gui=NONE guifg=NONE guibg=#f5f5f5
