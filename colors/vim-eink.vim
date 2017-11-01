@@ -54,7 +54,7 @@ hi Title gui=NONE guifg=#707070 guibg=NONE
 hi Todo gui=standout guifg=NONE guibg=NONE
 hi Type gui=bold guifg=#4a4a4a guibg=NONE
 hi Underlined gui=NONE guifg=NONE guibg=NONE
-hi VertSplit gui=NONE guifg=#e3e3e3 guibg=NONE
+hi VertSplit gui=NONE guifg=#e3e3e3 guibg=#4a4a4a
 hi Visual gui=NONE guifg=NONE guibg=#bababa
 hi VisualNOS gui=NONE guifg=NONE guibg=NONE
 hi WarningMsg gui=NONE guifg=NONE guibg=#fff0f0
