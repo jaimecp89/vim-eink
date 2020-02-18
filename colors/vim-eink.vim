@@ -64,3 +64,29 @@ hi Identifier gui=NONE guifg=NONE guibg=NONE
 hi PreProc gui=NONE guifg=NONE guibg=NONE
 
 hi PythonInclude gui=bold guifg=#4a4a4a guibg=NONE
+
+if has('nvim')
+  let g:terminal_color_0 = '#5c5c5c'
+  let g:terminal_color_8 = '#5c5c5c'
+
+  let g:terminal_color_1 = '#5c5c5c'
+  let g:terminal_color_9 = '#5c5c5c'
+
+  let g:terminal_color_2 = '#5c5c5c'
+  let g:terminal_color_10 = '#5c5c5c'
+
+  let g:terminal_color_3 = '#5c5c5c'
+  let g:terminal_color_11 = '#5c5c5c'
+
+  let g:terminal_color_4 = '#5c5c5c'
+  let g:terminal_color_12 = '#5c5c5c'
+
+  let g:terminal_color_5 = '#5c5c5c'
+  let g:terminal_color_13 = '#5c5c5c'
+
+  let g:terminal_color_6 = '#5c5c5c'
+  let g:terminal_color_14 = '#5c5c5c'
+
+  let g:terminal_color_7 = '#5c5c5c'
+  let g:terminal_color_15 = '#5c5c5c'
+endif
