@@ -69,9 +69,18 @@ hi PythonInclude gui=bold guifg=#4a4a4a guibg=NONE
 if has('nvim')
   " Floating window styling:
   hi NormalFloat gui=NONE guifg=NONE guibg=#bfbfbf
-  hi CocErrorFloat gui=NONE guifg=#ad0000 guibg=NONE
-  hi CocWarningFloat gui=NONE guifg=#ffdb29 guibg=NONE
-  hi CocHintFloat gui=NONE guifg=#87afd7 guibg=NONE
+
+  hi CocErrorFloat gui=NONE guifg=#5c5c5c guibg=NONE
+  hi CocWarningFloat gui=NONE guifg=#5c5c5c guibg=NONE
+  hi CocHintFloat gui=NONE guifg=#5c5c5c guibg=NONE
+
+  hi CocErrorSign gui=NONE guifg=#707070 guibg=NONE
+  hi CocWarningSign gui=NONE guifg=#d1d1d1 guibg=NONE
+  hi CocHintSign gui=NONE guifg=#d1d1d1 guibg=NONE
+
+  hi CocErrorHighlight gui=underline guisp=#707070
+  hi CocWarningHighlight gui=underline guisp=#d1d1d1
+  hi CocHintHighlight gui=underline guisp=#d1d1d1
 
   let g:terminal_color_0 = '#5c5c5c'
   let g:terminal_color_8 = '#5c5c5c'
